@@ -1,0 +1,5 @@
+.jshintignore
+**/.jshintignore
+static/js/*
+static/js/**.js
+**.min.js

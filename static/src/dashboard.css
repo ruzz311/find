@@ -1,0 +1,36 @@
+.location-listing > .row > .col-md-6:nth-child(2n+1) {
+    clear: both;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+dt, dd {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    /* adjust the width; make sure the total of both is 100% */
+}
+
+.chartLabel {
+    font: 16px sans-serif;
+    fill: #666;
+}
+
+.arcLabel {
+    font: 10px sans-serif;
+    fill: #fff;
+}
